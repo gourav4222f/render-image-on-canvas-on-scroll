@@ -42,3 +42,6 @@ A dynamic web page that renders images on a canvas based on scroll position. Thi
 ## Conclusion
 
 The render-image-on-canvas-on-scroll project demonstrates a unique approach to dynamic image rendering on the web. By leveraging the power of GSAP and the Canvas API, this project showcases a seamless and engaging user experience.
+
+
+# thanks to sheryians coding school❤
