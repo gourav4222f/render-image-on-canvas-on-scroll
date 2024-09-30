@@ -1,0 +1,19 @@
+{
+  "name": "render-image-on-canvas-on-scroll",
+  "version": "1.0.0",
+  "description": "render image on canvas on scroll",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"    
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  },
+  "homepage": "https://gourav4222f.github.io/render-image-on-canvas-on-scroll"  
+}
+
+
