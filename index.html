@@ -44,11 +44,9 @@
 
     function preloadImages() {
         for (var i = 1; i <= frames.maxIndex; i++) {
-            // const imageUrl = `./img/frame_${i.toString().padStart(4, "0")}.jpeg`;
+            
             const imageUrl = `https://www.apple.com/105/media/us/apple-vision-pro/2024/6e1432b2-fe09-4113-a1af-f20987bcfeee/anim/360/large/${i.toString().padStart(4, "0")}.jpg`;
-            // const imageUrl = `./application/video/frame_${i.toString().padStart(4, "0")}.jpeg`;
-
-            // https://www.apple.com/105/media/us/apple-vision-pro/2024/6e1432b2-fe09-4113-a1af-f20987bcfeee/anim/360/large/0111.jpg
+            
             const img = new Image();
             img.src = imageUrl;
             img.onload = function () {
